@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <header>
+    <div id ="logo">
+      ./Hangman
+    </div>
+      <canvas id="canvas" width="200" height="200"></canvas>
+    <div id="word">
+
+    </div>
+
+  </header>
+
+  <div class="mainContainer">
+      <div id="hangMan">
+      </div>
+      <div id="inputContainer" >
+        <input type="text" name="letter" maxlength="1" >
+        <input type="button" name="Submit" value="Submit">
+        <input id="startGame" type="button" name="Startgame" value="Start game">
+      </div>
+      <div id="guesses">
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+<script src = "canvas.js"></script>
+</body>
+</html>
